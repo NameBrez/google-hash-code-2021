@@ -1,6 +1,5 @@
 from collections import defaultdict
 from multiprocessing import Pool
-from tqdm import tqdm
 
 import pandas as pd
 import numpy as np
@@ -41,7 +40,7 @@ def read_input(filename):
 
 if __name__ == '__main__':
 
-    filename = "data/c.txt"
+    filename = "data/f.txt"
 
     duration, n_intersections, streets, paths, bonus_points = read_input(filename)
 
